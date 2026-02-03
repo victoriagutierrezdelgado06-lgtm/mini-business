@@ -1,0 +1,121 @@
+fecha,franja,producto,familia,unidades,precio_unitario,importe
+2025-13-01,Desayuno,Cafe solo,Bebdia,0,1.5,1.5
+2025-12-26,Desayuno,Cafe solo,Bebida,5,1.5,7.5
+2025-11-24,Desayuno,Tarta de Queso,Postre,1,3.5,3.5
+2025-10-28,Desayuno,Cafe solo,Bebida,2,1.5,3.0
+2025-10-26,Comida,Tarta Queso,Postre,5,3.5,17.5
+2025-11-27,Comida,Croissant,Entrante,5,2.2,11.0
+2025-10-21,Comida,Café Solo,Bebida,4,1.5,6.0
+2025-10-20,Comida,Tostada,Entrante,2,1.8,3.6
+2025-10-12,Desayuno,Cafe solo,Bebida,4,1.5,6.0
+2025-11-14,Comida,Huevos Revuelto,Principal,5,5.5,27.5
+2025-11-28,Desayuno,Café Solo,Bebida,5,1.5,7.5
+2025-10-11,Comida,Huevos Revueltos,Principal,5,5.5,27.5
+2025-11-16,Desayuno,Tarta de Queso,Postre,5,3.5,17.5
+2025-10-06,Comida,Cafe solo,Bebida,2,1.5,3.0
+2025-10-30,Comida,Cafe solo,Bebida,1,1.5,1.5
+2025-11-28,Desayuno,Tostada,Entrante,3,1.8,5.4
+2025-11-15,Comida,Huevos Revuelto,Principal,2,5.5,11.0
+2025-12-17,Desayuno,Cafe solo,Bebida,2,1.5,3.0
+2025-11-29,Comida,Café con Leche,Bebida,4,2.0,8.0
+2025-10-29,Desayuno,Tarta Queso,Postre,3,3.5,10.5
+2025-10-05,Comida,Croissant,Entrante,3,2.2,4.4
+2025-10-28,Comida,Cafe solo,Bebida,5,1.5,7.5
+2025-12-23,Comida,Croissant,Entrante,4,2.2,8.8
+2025-10-19,Desayuno,Pasta,Principal,3,8.5,25.5
+2025-12-11,Comida,Croissant,Entrante,5,2.2,11.0
+2025-11-24,Comida,Tarta de Queso,Postre,,3.5,
+2025-10-29,Comida,Huevos Revuelto,Principal,2,5.5,11.0
+2025-10-07,Desayuno,Cafe solo,Bebida,1,1.5,1.5
+2025-12-27,Desayuno,Café con Leche,Bebida,4,2.0,8.0
+2025-11-18,Comida,Huevos Revueltos,Principal,5,5.5,27.5
+2025/11/05,Comida,Tarta Queso,Postre,1,3.5,3.5
+2025-10-15,Comida,Huevos Revuelto,Principal,3,5.5,16.5
+2025-11-28,Comida,Café con Leche,Bebida,1,2.0,2.0
+2025-10-23,Desayuno,Tarta Queso,Postre,5,3.5,17.5
+2025-12-21,Desayuno,Tostada,Entrante,5,1.8,9.0
+2025-11-17,Desayuno,Café con Leche,Bebida,2,2.0,4.0
+2025-11-11,Desayuno,Tarta de Queso,Postre,4,3.5,14.0
+2025-11-16,Desayuno,Cafe solo,Bebida,3,1.5,4.5
+2025-10-31,Desayuno,Café Solo,Bebida,5,1.5,7.5
+2025-12-02,Desayuno,Cafe solo,Bebida,1,1.5,1.5
+2025-12-24,Desayuno,Café con Leche,Bebdia,4,2.0,6.0
+2025-12-07,Comida,Tostada,Entrante,5,1.8,9.0
+2025-12-09,Comida,Croissant,Entrante,2,2.2,4.4
+2025-12-25,Comida,Huevos Revueltos,Principal,3,5.5,16.5
+2025-11-27,Desayuno,Tarta Queso,Postre,1,3.5,3.5
+2025-10-09,Desayuno,Croissant,Entrante,3,2.2,6.6000000000000005
+2025-12-10,Desayuno,Tarta de Queso,Postre,2,3.5,7.0
+2025-10-10,Desayuno,Café Solo,Bebida,1,1.5,1.5
+2025-10-05,Desayuno,Cafe solo,Bebida,3,1.5,4.5
+2025-10-31,Comida,Tarta Queso,Postre,3,3.5,10.5
+2025-12-09,Comida,Croissant,Entrante,0,2.2,0.0
+2025-11-30,Desayuno,Croissant,Entrante,4,2.2,8.8
+2025-10-13,Comida,Cafe solo,Bebida,4,1.5,6.0
+2025-11-22,Desayuno,Huevos Revueltos,Principal,4,5.5,22.0
+2025-10-08,Comida,Cafe solo,Bebida,4,1.5,6.0
+2025-11-01,Desayuno,Cafe solo,Bebida,2,1.5,3.0
+2025-11-27,Comida,Tarta Queso,Postre,2,3.5,7.0
+2025-11-05,Desayuno,Café con Leche,Bebida,4,2.0,8.0
+2025-11-26,Desayuno,Cafe solo,Bebida,5,1.5,7.5
+2025-12-23,Desayuno,Café Solo,Bebida,5,1.5,7.5
+31-12-2025,Comida,Cafe solo,Bebida,4,1.5,3.0
+2025-11-21,Desayuno,Croissant,Entrante,1,2.2,2.2
+2025-10-01,Comida,Huevos Revueltos,Principal,4,5.5,22.0
+2025-11-06,Comida,Pasta,Principal,4,8.5,34.0
+2025-10-25,Desayuno,Café con Leche,Bebida,3,2.0,6.0
+2025-12-14,Desayuno,Café Solo,Bebida,5,1.5,7.5
+2025-10-08,Comida,Huevos Revuelto,Principal,1,5.5,5.5
+2025-12-07,Desayuno,Tarta Queso,Postre,2,3.5,7.0
+2025-10-11,Desayuno,Tarta Queso,Postre,2,3.5,7.0
+2025-10-09,Comida,Tarta de Queso,Postre,2,3.5,7.0
+2025-12-12,Desayuno,Cafe solo,Bebida,2,1.5,3.0
+2025-10-11,Comida,Tarta de Queso,Postre,4,3.5,14.0
+2025-10-27,Desayuno,Tostada,Entrante,3,1.8,5.4
+2025-11-20,Comida,Tostada,Entrante,2,1.8,3.6
+2025-11-10,Desayuno,Pasta,Principal,1,8.5,8.5
+2025-12-19,Desayuno,Pasta,Principal,,8.5,
+2025-12-08,Comida,Cafe solo,Bebida,2,1.5,3.0
+2025-11-14,Desayuno,Café con Leche,Bebida,1,2.0,2.0
+2025-11-06,Comida,Huevos Revuelto,Principal,2,5.5,11.0
+2025-12-30,Desayuno,Tarta Queso,Postre,3,3.5,10.5
+2025-11-08,Comida,Tarta Queso,Bebdia,1,3.5,3.5
+2025-10-14,Desayuno,Cafe solo,Bebida,5,1.5,7.5
+2025-11-06,Desayuno,Tostada,Entrante,5,1.8,9.0
+2025-10-27,Comida,Huevos Revuelto,Principal,3,5.5,16.5
+2025-10-07,Comida,Tostada,Entrante,1,1.8,1.8
+2025-10-06,Comida,Tostada,Entrante,1,1.8,1.8
+2025-12-21,Desayuno,Café con Leche,Bebida,3,2.0,6.0
+2025-12-10,Desayuno,Pasta,Principal,4,8.5,34.0
+2025-10-10,Desayuno,Cafe solo,Bebida,2,1.5,3.0
+2025-12-14,Desayuno,Huevos Revuelto,Principal,5,5.5,27.5
+2025/11/05,Comida,Huevos Revueltos,Principal,3,5.5,16.5
+2025-11-15,Desayuno,Café Solo,Bebida,2,1.5,3.0
+2025-11-15,Comida,Cafe solo,Bebida,5,1.5,7.5
+2025-10-20,Desayuno,Tarta de Queso,Postre,2,3.5,7.0
+2025-11-22,Desayuno,Café con Leche,Bebida,1,2.0,2.0
+2025-11-22,Comida,Huevos Revuelto,Principal,2,5.5,11.0
+2025-12-29,Comida,Café con Leche,Bebida,1,2.0,2.0
+2025-11-30,Desayuno,Café Solo,Bebida,2,1.5,3.0
+2025-11-14,Desayuno,Pasta,Principal,3,8.5,25.5
+2025-10-04,Comida,Croissant,Entrante,2,2.2,4.4
+2025-11-05,Comida,Huevos Revuelto,Principal,0,5.5,11.0
+2025-11-21,Comida,Tarta Queso,Postre,5,3.5,17.5
+2025-10-15,Desayuno,Café Solo,Bebida,3,1.5,4.5
+2025-11-03,Desayuno,Tarta de Queso,Postre,1,3.5,3.5
+2025-11-25,Comida,Tarta de Queso,Postre,3,3.5,10.5
+2025-12-17,Desayuno,Huevos Revueltos,Principal,5,5.5,27.5
+2025-12-13,Comida,Huevos Revueltos,Principal,2,5.5,11.0
+2025-12-30,Desayuno,Café Solo,Bebida,4,1.5,6.0
+2025-12-08,Comida,Tarta Queso,Postre,2,3.5,7.0
+2025-10-09,Comida,Huevos Revueltos,Principal,3,5.5,16.5
+2025-11-08,Comida,Cafe solo,Bebida,5,1.5,7.5
+2025-11-11,Comida,Huevos Revueltos,Principal,4,5.5,22.0
+2025-10-17,Comida,Tarta Queso,Postre,2,3.5,7.0
+2025-12-26,Comida,Huevos Revueltos,Principal,2,5.5,11.0
+2025-12-10,Comida,Huevos Revueltos,Principal,1,5.5,5.5
+2025-10-27,Comida,Tostada,Entrante,4,1.8,7.2
+2025-11-26,Desayuno,Pasta,Principal,4,8.5,34.0
+2025-11-30,Desayuno,Tarta Queso,Postre,2,3.5,7.0
+2025-12-05,Comida,Tostada,Entrante,5,1.8,9.0
+2025-10-31,Desayuno,Cafe solo,Bebida,3,1.5,4.5
