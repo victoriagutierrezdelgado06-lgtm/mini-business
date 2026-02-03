@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>Ventas BI Educativo</title>
+
+  <!-- Chart.js por CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+    }
+    h1, h2 {
+      margin-top: 40px;
+    }
+    table {
+      border-collapse: collapse;
+      width: 100%;
+      margin-bottom: 30px;
+    }
+    th, td {
+      border: 1px solid #ccc;
+      padding: 6px;
+      text-align: left;
+      font-size: 14px;
+    }
+    th {
+      background-color: #f0f0f0;
+    }
+    .kpi {
+      display: inline-block;
+      margin-right: 40px;
+      font-size: 18px;
+      font-weight: bold;
+    }
+    canvas {
+      max-width: 600px;
+      margin-bottom: 40px;
+    }
+    button {
+      padding: 10px 15px;
+      font-size: 14px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Dashboard BI – Ventas</h1>
+
+  <p>
+    Filas antes de limpieza: <strong id="rawCount">0</strong> |
+    Filas después de limpieza: <strong id="cleanCount">0</strong>
+  </p>
+
+  <h2>KPIs</h2>
+  <div class="kpi">Ventas Totales (€): <span id="kpiVentas">0</span></div>
+  <div class="kpi">Unidades Totales: <span id="kpiUnidades">0</span></div>
+
+  <h2>Gráficos</h2>
+  <canvas id="chartTopProductos"></canvas>
+  <canvas id="chartFranja"></canvas>
+  <canvas id="chartFamilia"></canvas>
+
+  <h2>Top 5 Productos por Importe</h2>
+  <ul id="topProductos"></ul>
+
+  <h2>Tabla RAW (primeras 10 filas)</h2>
+  <table id="rawTable"></table>
+
+  <h2>Tabla LIMPIA (primeras 10 filas)</h2>
+  <table id="cleanTable"></table>
+
+  <button id="downloadBtn">Descargar ventas_clean.csv</button>
+
+  <script src="app.js"></script>
+</body>
+</html>
