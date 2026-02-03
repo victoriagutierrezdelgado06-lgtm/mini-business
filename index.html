@@ -2,67 +2,127 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8" />
-  <title>Ventas BI Educativo</title>
+  <title>Dashboard BI – Ventas</title>
 
-  <!-- Chart.js por CDN -->
+  <!-- Chart.js CDN -->
   <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 
   <style>
     body {
       font-family: Arial, sans-serif;
       margin: 20px;
+      background-color: #fafafa;
     }
-    h1, h2 {
+
+    h1 {
+      text-align: center;
+    }
+
+    h2 {
       margin-top: 40px;
+      text-align: center;
     }
-    table {
-      border-collapse: collapse;
-      width: 100%;
+
+    .info {
+      text-align: center;
       margin-bottom: 30px;
     }
-    th, td {
-      border: 1px solid #ccc;
-      padding: 6px;
-      text-align: left;
-      font-size: 14px;
+
+    /* KPIs */
+    .kpis {
+      display: flex;
+      justify-content: center;
+      gap: 40px;
+      margin-bottom: 40px;
+      flex-wrap: wrap;
     }
-    th {
-      background-color: #f0f0f0;
-    }
+
     .kpi {
-      display: inline-block;
-      margin-right: 40px;
+      background: white;
+      border: 1px solid #ddd;
+      padding: 15px 25px;
+      border-radius: 8px;
       font-size: 18px;
       font-weight: bold;
     }
-    canvas {
+
+    /* CONTENEDOR DE GRÁFICOS */
+    .chart-container {
       max-width: 600px;
-      margin-bottom: 40px;
+      height: 350px;
+      margin: 30px auto;
+      background: white;
+      padding: 15px;
+      border-radius: 8px;
+      border: 1px solid #ddd;
     }
+
+    canvas {
+      width: 100% !important;
+      height: 100% !important;
+    }
+
+    table {
+      border-collapse: collapse;
+      width: 100%;
+      margin-top: 20px;
+      background: white;
+    }
+
+    th, td {
+      border: 1px solid #ccc;
+      padding: 6px;
+      font-size: 14px;
+      text-align: left;
+    }
+
+    th {
+      background-color: #f0f0f0;
+    }
+
+    ul {
+      max-width: 600px;
+      margin: 0 auto;
+    }
+
     button {
-      padding: 10px 15px;
+      display: block;
+      margin: 40px auto;
+      padding: 10px 20px;
       font-size: 14px;
       cursor: pointer;
     }
   </style>
 </head>
+
 <body>
 
   <h1>Dashboard BI – Ventas</h1>
 
-  <p>
+  <div class="info">
     Filas antes de limpieza: <strong id="rawCount">0</strong> |
     Filas después de limpieza: <strong id="cleanCount">0</strong>
-  </p>
+  </div>
 
   <h2>KPIs</h2>
-  <div class="kpi">Ventas Totales (€): <span id="kpiVentas">0</span></div>
-  <div class="kpi">Unidades Totales: <span id="kpiUnidades">0</span></div>
+  <div class="kpis">
+    <div class="kpi">Ventas Totales (€): <span id="kpiVentas">0</span></div>
+    <div class="kpi">Unidades Totales: <span id="kpiUnidades">0</span></div>
+  </div>
 
   <h2>Gráficos</h2>
-  <canvas id="chartTopProductos"></canvas>
-  <canvas id="chartFranja"></canvas>
-  <canvas id="chartFamilia"></canvas>
+
+  <div class="chart-container">
+    <canvas id="chartTopProductos"></canvas>
+  </div>
+
+  <div class="chart-container">
+    <canvas id="chartFranja"></canvas>
+  </div>
+
+  <div class="chart-container">
+    <canvas id="chartFamilia"></canvas>
+  </div>
 
   <h2>Top 5 Productos por Importe</h2>
   <ul id="topProductos"></ul>
@@ -78,3 +138,4 @@
   <script src="app.js"></script>
 </body>
 </html>
+
